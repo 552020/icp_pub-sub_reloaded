@@ -1,6 +1,6 @@
 # PubSub Reloaded
 
-This project enhances the original [PubSub example](link-to-original) to provide a clearer demonstration of inter-canister calls on the Internet Computer, specifically showing how functions can be passed as arguments between canisters. While maintaining the simplicity of the original design, this version improves the architecture by:
+This project enhances the original [PubSub example](https://github.com/dfinity/examples/tree/master/motoko/pub-sub) to provide a clearer demonstration of inter-canister calls on the Internet Computer, specifically showing how functions can be passed as arguments between canisters. While maintaining the simplicity of the original design, this version improves the architecture by:
 
 1. Clearly defining the three key roles in a pub/sub system:
 
@@ -315,4 +315,3 @@ For example, the following aspects are particularly relevant for this app, since
 - [Be aware that state may change during inter-canister calls.](https://internetcomputer.org/docs/current/developer-docs/security/security-best-practices/overview)
 - [Only make inter-canister calls to trustworthy canisters.](https://internetcomputer.org/docs/current/developer-docs/security/security-best-practices/overview)
 - [Don't panic after await and don't lock shared resources across await boundaries.](https://internetcomputer.org/docs/current/developer-docs/security/security-best-practices/overview)
-# icp_pub-sub_reloaded
